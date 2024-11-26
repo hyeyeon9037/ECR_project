@@ -214,7 +214,7 @@
 
 
 
-<h2> ECR만의 장점은? </h2>
+<h2> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" alt="Beating Heart" width="25" height="25" />ECR만의 장점은? </h2>
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands%20Medium-Light%20Skin%20Tone.png" alt="Heart Hands Medium-Light Skin Tone" width="25" height="25" /> <b>편의성</b>
  <br>
@@ -232,7 +232,10 @@
  <br>
 모든 공포 테마를 직관적으로 구성해 직관적으로 구성해 쉽게 파악할 수있습니다.
 
-<h2> ECR만의 단점은? </h2>
+
+<br>
+<br>
+<h2> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Collision.png" alt="Collision" width="25" height="25" /> ECR만의 단점은? </h2>
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Rightwards%20Pushing%20Hand%20Light%20Skin%20Tone.png" alt="Rightwards Pushing Hand Light Skin Tone" width="25" height="25" /> <b>타겟 사용자층의 제한</b>
 
 <li>스릴러와 호러를 중심으로 한 한정적인 테마로 구성되어 있어, 공포를 선호하는 사용자들에게 최적화된 플랫폼</li>
@@ -241,7 +244,18 @@
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Rightwards%20Pushing%20Hand%20Light%20Skin%20Tone.png" alt="Rightwards Pushing Hand Light Skin Tone" width="25" height="25" /> <b>테마의 다양성 부족</b>
 <li>스릴러와 호러에만 초점을 맞추다 보니, 다른 장르(예: 코미디, 미스터리, 판타지)를 원하는 사용자들이 흥미를 느끼지 못할 가능성이 큼</li>
 
-
-<h2> ECR만의 단점은? </h2>
-
+<br>
+<br>
+<h2> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Construction.png" alt="Construction" width="25" height="25" /> 보완할 점 </h2>
+<li>회원가입 시 SMS 인증 기능 추가</li>
+<ul><li>사용자 계정의 안전성을 확보하기 위해 SMS 인증 API를 활용한 기능 도입 필요</li></ul>
+<br>
+<li>결제 시스템 강화</li>
+<ul><li>예약 시 결제 처리를 위해 결제 API를 추가적으로 연동해야 함</li></ul>
+<br>
+<li>실적 조회 기능 구현</li>
+<ul><li>테마별 이용 횟수, 월별 결제 금액, 취소 신청 횟수 등의 통계를 확인할 수 있는 기능 필요</li></ul>
+<br>
+<li>리뷰 등록 기능 추가</li>
+<ul><li>사용자가 예약을 완료한 후 리뷰를 등록할 수 있는 기능 구현 필요</li></ul>
 </ul>

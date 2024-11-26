@@ -1,13 +1,23 @@
-# ECR_Project
+<h1>📃 프로젝트 정보<br> </h1>
+
+<h3>1. 제작 기간 <br></h3>
+2024.09.02 ~ 2024.09.27
 
 
-<h3>프로젝트 명 <br> 
-    : ECR (Ecape Room) </h3>
+<h3>2. 프로젝트 멤버</h3>
 
-<h3>프로젝트 주제</h3>
-    : 
+|Name|Position|explanation|
+|------|---|---|
+|현민환|Back|테스트3|
+|박혜연|Back, Front|테마리스트, 공지사항, css|
+|유병수|Back, Front|회원가입, 로그인, css|
+|김광훈|Back|예약|
+|김승욱|Back|회원가입|
 
-<h3>프로젝트 소개</h3>
+<h3> 
+3. 프로젝트 소개<br></h3>
+<b>: 공포 방탈출 예약과 정보를 효율적으로 관리할 수 있는 통합 서비스</b> <br>
+ <br>
 <ul>
   <li>방탈출 테마 예약 및 관리를 위한 포털 사이트 구축</li>
   <li>사용자 편의를 최우선으로 고려한 방탈출 통합 포털 플랫폼 구현</li>
@@ -17,8 +27,7 @@
 </ul>
 
 
-
-
+<h3> ERD & Structure </h3>
 
 
 
@@ -85,8 +94,8 @@
 <ul>
  <h3> 📍 기능구현(사용자/관리자)</h3>
 <br>
-<b> 👨‍🦱사용자 </b>
-<br>
+<b> 👨‍🦱 사용자 </b>
+<br><br>
   
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right%20Light%20Skin%20Tone.png" alt="Backhand Index Pointing Right Light Skin Tone" width="25" height="25" /> <b>테마 목록 조회 (temaList.js) & 테마 상세 정보 보기 (detail.js) </b>
     <br><br>
@@ -103,7 +112,7 @@
 ---------------
 
   <b> 🧓 관리자 </b>
-  <br>
+  <br><br>
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right%20Light%20Skin%20Tone.png" alt="Backhand Index Pointing Right Light Skin Tone" width="25" height="25" /> <b>테마 관리 페이지 (temaManagement.js)</b>
     <br>
   <li>/api/menu API 호출로 관리자가 테마 목록을 조회</li>
@@ -169,8 +178,8 @@
  <h3> 📍 기능구현(사용자/관리자)</h3>
 <br>
 
-<b> 👨‍🦱사용자 </b>
-<br>
+<b> 👨‍🦱 사용자 </b>
+<br><br>
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right%20Light%20Skin%20Tone.png" alt="Backhand Index Pointing Right Light Skin Tone" width="25" height="25" /> <b>공지사항 목록 확인 (Anc_Board.js)</b>
   <li>/board/list/{page}/5 API를 호출하여 페이징된 공지사항 목록을 가져옴</li>
   <li>공지사항 제목, 작성자, 작성일, 조회수 등을 사용자에게 표시</li>
@@ -183,7 +192,7 @@
   <br><br>
 
   <b> 🧓 관리자 </b>
-  <br>
+  <br><br>
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right%20Light%20Skin%20Tone.png" alt="Backhand Index Pointing Right Light Skin Tone" width="25" height="25" /> <b>공지사항 작성(Anc_List.js) & 수정(Anc_EditForm.js) & 삭제 (Anc_EditForm.js)</b>
   <li>/board/write2 API 호출로 제목과 내용을 입력받아 공지사항 작성 가능</li>
   <li>/board/form/{boardNo} API를 통해 수정할 공지사항 데이터 불러오기</li>
@@ -200,4 +209,39 @@
 <br>
 <li>공지사항 제목 및 내용의 길이 제한, 입력값 검증이 추가되지 않아 비정상적인 데이터가 저장될 가능성</li>
 <br><br>
+
+
+
+
+
+<h2> ECR만의 장점은? </h2>
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands%20Medium-Light%20Skin%20Tone.png" alt="Heart Hands Medium-Light Skin Tone" width="25" height="25" /> <b>편의성</b>
+ <br>
+다른 사이트들은 각각 따로 확인해야하는 번거로움이 존재한다면, ECR 웹사이트는 장르, 난이도, 인원수, 가격, 평점, 위치를 한눈에 볼 수 있습니다.
+
+<br>
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands%20Medium-Light%20Skin%20Tone.png" alt="Heart Hands Medium-Light Skin Tone" width="25" height="25" /> <b>제약성</b>
+ <br>
+다른 사이트들은 자신들의 체인점만 제공되어 전체를 한눈에 보기 어려운 반면, ECR 웹사이트는 다양한 공포 방탈출게임을 한곳에서 볼 수 있다는 장점이 있습니다.
+
+<br>
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands%20Medium-Light%20Skin%20Tone.png" alt="Heart Hands Medium-Light Skin Tone" width="25" height="25" /> <b>접근성</b>
+ <br>
+모든 공포 테마를 직관적으로 구성해 직관적으로 구성해 쉽게 파악할 수있습니다.
+
+<h2> ECR만의 단점은? </h2>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Rightwards%20Pushing%20Hand%20Light%20Skin%20Tone.png" alt="Rightwards Pushing Hand Light Skin Tone" width="25" height="25" /> <b>타겟 사용자층의 제한</b>
+
+<li>스릴러와 호러를 중심으로 한 한정적인 테마로 구성되어 있어, 공포를 선호하는 사용자들에게 최적화된 플랫폼</li>
+<li>공포를 기피하는 사용자들에게는 전혀 접근되지 않음</li>
+<br>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Rightwards%20Pushing%20Hand%20Light%20Skin%20Tone.png" alt="Rightwards Pushing Hand Light Skin Tone" width="25" height="25" /> <b>테마의 다양성 부족</b>
+<li>스릴러와 호러에만 초점을 맞추다 보니, 다른 장르(예: 코미디, 미스터리, 판타지)를 원하는 사용자들이 흥미를 느끼지 못할 가능성이 큼</li>
+
+
+<h2> ECR만의 단점은? </h2>
+
 </ul>

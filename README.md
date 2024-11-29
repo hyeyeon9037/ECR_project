@@ -9,8 +9,8 @@
 |Name|Position|explanation|
 |------|---|---|
 |현민환(팀장)|Back|테마디테일,테마관리|
-|박혜연|Back, Front|테마리스트, 공지사항, css|
-|유병수|Back, Front|회원가입, 로그인, css|
+|박혜연|Back, Front|테마리스트, 공지사항, UI|
+|유병수|Back, Front|회원가입, 로그인, UI|
 |김광훈|Back|예약|
 |김승욱|Back|회원가입|
 

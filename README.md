@@ -8,7 +8,7 @@
 
 |Name|Position|explanation|
 |------|---|---|
-|현민환|Back|테스트3|
+|현민환(팀장)|Back|테마디테일,테마관리|
 |박혜연|Back, Front|테마리스트, 공지사항, css|
 |유병수|Back, Front|회원가입, 로그인, css|
 |김광훈|Back|예약|
@@ -68,12 +68,14 @@
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="25" height="25" /><b> Fullpage.js 관련 문제</b>
 <br>
-<li>Fullpage.js 인스턴스가 적절히 해제되지 않으면 메모리 누수가 발생하거나 예상치 못한 스크롤 동작이 발생</li>
+<li>Fullpage.js 인스턴스가 적절히 해제되지 않으면 메모리 누수가 발생 & 예상치 못한 스크롤 동작이 발생</li>
+    🔎 페이지 전환 시 인스턴스를 명확히 해제하는 로직을 추가하여 안정성을 강화
 <br><br>
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="25" height="25" /><b> 반응형 이슈</b>
 <br>
 <li>카드 크기와 레이아웃이 작은 화면에서 겹치거나 UI가 깨지는 문제가 발생</li>
+    🔎 반응형 디자인을 적용 & CSS 미디어 쿼리를 활용하여 다양한 화면 크기에서도 UI가 안정적으로 표시되도록 수정
 <br><br>
 
 </ul>
@@ -107,7 +109,8 @@
 <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bell.png" alt="Bell" width="25" height="25" /> 개발 이슈</h3>
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="25" height="25" /><b>검색 결과 없음</b>
 <br>
-<li>필터 및 검색 조건에 맞는 데이터가 없을 경우 공백 화면이 표시가 안남</li>
+<li>필터 및 검색 조건에 맞는 데이터가 없을 경우 공백 화면이 표시되지 않는 문제</li>
+    🔎 조건에 맞는 데이터가 없을 때 안내 메시지나 대체 화면이 나타나도록 로직을 추가
 
 ---------------
 
@@ -130,8 +133,8 @@
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right%20Light%20Skin%20Tone.png" alt="Backhand Index Pointing Right Light Skin Tone" width="25" height="25" /> <b>테마 등록 기능 (insertTema.js)</b>
     <br>
   <li>/api/tema API를 사용해 새로운 테마 등록 가능
-  <br>: 테마 이름, 카페 이름, 가격, 소요시간, 테마 설명, 주소, 인원수, 난이도, 장르, 이미지</li>
-  <li>카카오 지도 API를 통한 주소 검색 및 좌표 변환 후 저장</li>
+  <br>: 테마 이름, 카페 이름, 가격, 소요시간, 테마 설명, 주소, 인원수, 난이도, 장르, 이미지업로드(jpg, png)</li>
+  <li>네이버 지도 API를 통한 주소 검색 및 좌표 변환 후 저장</li>
   <li>수정된 데이터를 /api/tema에 PUT 방식으로 전송</li>
   <br><br>
 
@@ -150,19 +153,23 @@
  <br>
  
 <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bell.png" alt="Bell" width="25" height="25" /> 개발 이슈</h3>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="25" height="25" /><b>권한 문제</b>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="25" height="25" /> <b>권한 문제</b>
 <br>
 <li>관리자가 아닌 사용자가 URL을 통해 등록/수정 페이지에 접근</li>
+    🔎 로그인 타입으로 권한 설정
+<br><br>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="25" height="25" /><b> 이미지 업로드 </b>
+<br>
+<li>내부 경로로 저장할 때 발생했던 새로고침 오류</li>
+    🔎 외부 경로를 활용하도록 변경하였으며, 이를 통해 자동 새로고침이 정상적으로 동작하도록 개선
+
 
 <hr>
 <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" alt="Light Bulb" width="25" height="25" /> 공통 개발 이슈</h3>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="25" height="25" /><b> 카카오 지도 API 의존성 </b>
-<br>
-<li>카카오 지도 API 호출이 실패하거나 로드되지 않을 경우 주소 검색 및 좌표 변환 기능이 동작하지 않았음</li>
-<br>
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="25" height="25" /><b> 평점 계산 오류 </b>
 <br>
 <li>/api/tema/{temaNo}/avgRating API 호출 시 평점이 표시되지 않음</li>
+   🔎 평점 계산 로직을 점검
 <br><br>
 </ul>
 

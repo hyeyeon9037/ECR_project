@@ -27,7 +27,7 @@
 </ul>
 
 
-<h3> 4. 프로젝트 사용 언어 </h3>
+<h3> 4. 사용 언어 </h3>
 <div>
 <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle DB">
 </div>

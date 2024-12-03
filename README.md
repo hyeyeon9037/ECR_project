@@ -9,7 +9,7 @@
 |Name|Position|explanation|
 |------|---|---|
 |현민환(팀장)|Back||
-|박혜연|Back, Front|테마리스트, 공지사항, UI|
+|박혜연|Back, Front|메인페이지, 테마리스트, 공지사항, UI|
 |유병수|Back, Front||
 |김광훈|Back||
 |김승욱|Back||
